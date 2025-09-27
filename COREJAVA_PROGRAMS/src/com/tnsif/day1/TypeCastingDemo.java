@@ -29,7 +29,7 @@ public class TypeCastingDemo {
 		int i2 = (int) l1;
 		System.out.println(i2);
 
-		float f2 = 34.56f;
+		float f2 = 34.56f; 
 		int i1 = (int) f2;
 		System.out.println(i1);
 
