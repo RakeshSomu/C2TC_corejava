@@ -1,8 +1,9 @@
 package day8.abstraction;
+
 public abstract class Shape {
-	protected float area;
-    
-    //abstract method 
+     protected float area;
+     
+     //abstract method 
 	 abstract void calArea();
 	 
 	 //concrete method
@@ -10,5 +11,5 @@ public abstract class Shape {
 	 {
 		 System.out.println("Area of shape is "+area);
 	 }
-
 }
+	 
