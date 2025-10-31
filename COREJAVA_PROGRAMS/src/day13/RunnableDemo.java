@@ -14,7 +14,7 @@ public class RunnableDemo {
 			}
 		};
 		Thread thread = new Thread(runnable);
-		thread.start();
+		thread.start(); 
 		
 		// lambda expression
 		runnable = () -> { 
